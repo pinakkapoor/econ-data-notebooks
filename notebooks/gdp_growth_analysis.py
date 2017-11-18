@@ -120,4 +120,5 @@ if __name__ == '__main__':
     spread = get_yield_spread()
     plot_yield_curve_vs_gdp(spread, gdp)
 
+    # maybe add PCE data later
     print('\ndone')
