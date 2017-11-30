@@ -20,3 +20,5 @@ set your FRED key:
 ```
 export FRED_API_KEY=your_key_here
 ```
+
+all the plots save to png in the current directory. matplotlib might complain about backends if you're not running a display — just set `MPLBACKEND=Agg` if that happens.
